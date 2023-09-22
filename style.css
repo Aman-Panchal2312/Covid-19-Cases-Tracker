@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('photo3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 97vh; */
+    /* height: auto; */
+}
+
+#head_container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+#big{
+    
+
+}
+
+#head_container h1 {
+    color: beige;
+    margin-top: 20px;
+    /* background-color: black; */
+}
+#main_container{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* align-content: space-around; */
+    /* background-color: rgba(49, 36, 36, 0.303); */
+    border-radius: 10px;
+    width: 40vw;
+    padding: 10px;
+    /* border: 3px solid black; */
+    width: 98vw;
+
+    
+}
+
+#main_container{
+   
+   
+    
+}
+#main_container input:hover{
+    transform:scale(1.05,1.05);
+}
+#main_container input{
+    margin: 10px 0px;
+    width: 50vw;
+    font-size: 20px;
+    font-weight: 700;
+    background-color:rgba(0, 0, 0, 0.538);
+    color: antiquewhite;
+    text-align: center;
+}
+/* label{
+    color: aliceblue;
+    transform: toUpperCase();
+} */
+#error{
+    color: red;
+}
+#main_container button{
+    margin: 10px 0px;
+    width: 30vw;
+    font-size: 20px;
+    background-color: rgb(3, 186, 79);
+    border-radius:3px ;
+}
+#main_container form button a{
+    text-decoration: none;
+    color: black;
+}
+#main_container form button:hover{
+    transform: scale(1.1,1.1);
+}
+
+#country_code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.591);
+}
+#country_code h3{
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    width: 50vw;
+    text-align: center;
+}
+#country_code ul li{
+    list-style-type: none;
+    font-size:20px;
+    color: antiquewhite;
+    margin: 5px 0px;
+}
+

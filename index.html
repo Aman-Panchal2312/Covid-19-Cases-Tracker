@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.COVID-19.com</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="big">
+    <div id="head_container">
+        <h1>WELCOME TO COVID-19 FETCH API WEBSITE</h1>
+    </div>
+    <div id="main_container">
+        
+            <!-- <label for="name">COUNTRY NAME</label> -->
+            <input type="text" placeholder="ENTER COUNTRY CODE" id="code" name="name" autofocus autocomplete="off">
+            <span id="error"></span>
+            <!-- <label for="case">TOTAL CASE</label> -->
+            <input type="text" placeholder="TOTAL CASE" id="case" disabled name="case">
+            <!-- <label for="new">NEW CASE</label> -->
+            <input type="text" placeholder="NEW CASE" id="newcase" disabled name="new">
+            <!-- <label for="recover">RECOVER</label> -->
+            <input type="text" placeholder="RECOVER" id="recover" disabled name="recover">
+            <!-- <label for="deadth">DEADTH</label> -->
+            <input type="text" placeholder="DEADTHS" id="deadth" disabled name="deadth">
+            <button id="btn" onclick="fetchdata()">SEARCH</button>
+            
+           
+            <button id="btn2" href="#abc"><a href="#abc">CLICK FOR COUNTRY CODE</a></button>
+            
+        
+        <!-- <img src="photo." alt=""> -->
+    </div>
+    </div>
+    <hr>
+    <div id="country_code">
+        <h3>SOME COUNTRY CODES ARE HERE</h3>
+        <ul id="abc">
+            <li>India = 77</li>
+            <li>Afghanistan = 0</li>
+            <li>Armenia = 8</li>
+            <li>Bangladesh = 14</li>
+            <li>Canada = 31</li>
+            <li>China = 36</li>
+            <li>Germany = 64</li>
+             <li>Japan = 85</li>
+           <!-- <li>Pakistan = 132</li>
+            <li>South Africa = 163</li> -->
+        </ul>
+    </div>
+    
+</body>
+</html>
